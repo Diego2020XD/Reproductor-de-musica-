@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Diseño del contenedor central*/
+.mp3{
+width: 400px;
+height: 600px;
+background-color: rgb(12, 12, 12);
+top:-60px;
+bottom: 0px;
+right: 0px;
+left: 0px;
+margin: auto;
+position: absolute;
+border-radius: 10px;
+border: solid 1px black;
+overflow: hidden;
+}
+
+.mp3 h2{
+color:white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+/*Diseño del contenedor de la miniatura*/
+.cont-icon-music{
+background-color: white;
+width: 250px;
+height:240px;
+margin: auto;
+position: absolute;
+overflow: hidden;
+left: 0px;
+bottom: 0px;
+right: 0px;
+top:-170px;
+border-radius: 100%;
+}
+
+#miniatura{
+width: 100%;
+}
+
+.info{
+width: 80%;
+overflow: hidden;
+position: absolute;
+margin-top: 300px;
+left:40px;
+}
+
+.info h2{
+font-family: 'Times New Roman', Times, serif;
+color:white;
+}
+
+.info h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: white;
+}
+
+
+/*Diseño de la barra de progreso de la cancion*/
+
+.timer{
+width:80%;
+overflow: hidden;
+position: absolute;
+top:410px;
+left:40px;
+}
+
+.barra{
+ width: 300px;
+ height:8px;
+ background-color: white;
+ border-radius:10px;
+ cursor: pointer;
+}
+
+.linea{ 
+width:50%;
+height: 8px;
+background-color: rgb(255, 208, 1);
+}
+
+.time{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:17px;
+    margin-top:5px;
+    color: white;
+}
+
+/*----------Estilo de los controles------------*/
+
+.controls{
+width:80%;
+height:80px;
+overflow: hidden;
+position: absolute;
+top:435px;
+left:70px;
+}
+
+.btn{
+width:60px;
+height:60px;
+background-color: white;
+float: left;
+margin: 10px 10px;
+border-radius: 100px;
+overflow: hidden;
+cursor: pointer;
+border:solid 1px black;
+}
+
+.btn:hover{
+border:solid 3px #c9c500;
+}
+
+.btn-img{
+width:60%;
+margin-top: 13px;
+margin-left: 13px;
+}
+
+/*------------Estilo de los botoes de opciones--------------*/
+
+.option{
+width:80%;
+height:70px;
+overflow: hidden;
+position: absolute;
+top:510px;
+left:40px;
+
+}
+
+.btn-option{
+width:55px;
+height:55px;
+background-color: white;
+float: left;
+margin: 10px 10px;
+border-radius: 100px;
+overflow: hidden;
+cursor: pointer;
+border:solid 1px black;
+}
+
+.btn-option:hover{
+border:solid 3px #c9c500;
+}
+    
+
+.btn-img-option{
+width:60%;
+margin-top:13px;
+margin-left:12px;
+}
+    
+
+/*Estilo de las barra de navegacion*/
+
+.nav{
+background-color:#000000;
+width: 400px;
+height:60px;
+overflow: hidden;
+position:absolute;
+top:580px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border: solid 1px black;
+margin: auto;
+}
+
+.btn-nav{
+width:50px;
+height:60px;
+float: left;
+margin-left: 10px 10px;
+margin-top:8px;
+overflow: hidden;
+cursor: pointer;       
+}
+
+.btn-img-nav{
+width:90%;
+margin-left:3px;
+}

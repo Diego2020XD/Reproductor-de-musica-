@@ -1,0 +1,9 @@
+version 0.0.1
+1.reproduccion aleatoria 
+2.lista de reproduccion 
+2.100 canciones
+
+
+version 0.0.2
+1.boton de me gusta (proxiammente) 
+2.Diseño adaptativo(Proximamente)

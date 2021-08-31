@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Reproductor Mp3</title>
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <meta charset="utf-8">
+        <meta name="author" content="DiegoMatute">
+        <meta name="description" content="Reproductor de musica personal">
+        <meta name="viewport" content="Width=device-width, initial-scale=1, maximum-scale=1" user-scalable=no/>
+    </head>
+    <body>
+
+
+        <div class="contenedor"><!--Contenedor central que contendra todos las etiquetas-->
+
+            <div class="contendor-mp3"> 
+
+             <div class="mp3"><!--Contenedor del mp3-->
+
+                <br/>
+                <center><h2 class="text-list">Reproductor MP3</h2> </center>
+   
+                <div class="cont-icon-music"><!--Contenedor de la miniaturas de las canciones-->
+                   <img id="miniatura" loading="lazy" src="icon/Modo Oscuro/melodia.png" alt="Miniatura" width="90%" height="100%">
+                </div>
+   
+                <div class="info"><!--Informacion de las canciones-->
+                  <center>
+                   <h2 id="titulo">Nombre de la cancion</h2>
+                   <h3 id="artista">artista</h2>
+                  </center>
+                </div>
+   
+                <div class="timer"><!--Contenedor del timer de las canciones-->
+                   <div class="barra">
+                       <div class="linea" id="barra">
+                           <div class="punto"></div>
+                       </div>
+                   </div>
+   
+                   <!--<div class="time"><b id="time">00:00</b></div>-->
+                </div>
+   
+                <div class="controls"> <!--Contenedor de los controles-->
+                     <div id="anterior" class="btn"><img loading="lazy" class="btn-img" src="icon/Modo Oscuro/anterior.png" alt="anterior" width="100%"></div>
+                     <div id="pause" style="display: none;" class="btn"><img loading="lazy" class="btn-img" src="icon/Modo Oscuro/pausa.png" alt="pause" width="100%"></div>
+                     <div id="play" class="btn"><img loading="lazy" class="btn-img" src="icon/Modo Oscuro/play.png" alt="play" width="100%"></div>
+                     <div id="siguiente" class="btn"><img loading="lazy" class="btn-img" src="icon/Modo Oscuro/siguiente.png" alt="siguiente" width="100%"></div>
+                </div>
+   
+                <div class="option"><!--Contenedor de los botonoes de las opciones-->
+                   <div class="btn-option"><img loading="lazy" class="btn-img-option" src="icon/Modo Oscuro/aleatorio.png" alt="anterior" width="100%"></div>
+                   <a target="_blank" href="https://github.com/Diego2020XD/Reproductor-de-musica-.git"><div class="btn-option"><img loading="lazy" class="btn-img-option" src="icon/Modo Oscuro/github.png" alt="pause" width="100%"></div></a>
+                   <div id="compartir" class="btn-option"><img loading="lazy" class="btn-img-option" src="icon/Modo Oscuro/share.png" alt="play" width="100%"></div>
+                   <div id="volumen" class="btn-option"><img loading="lazy" class="btn-img-option" src="icon/Modo Oscuro/sonido.png" alt="siguiente" width="100%"></div>
+                   <div id="mute" style="display: none;" class="btn-option"><img loading="lazy" class="btn-img-option" src="icon/Modo Oscuro/mute.png" alt="siguiente" width="100%"></div>
+                </div>
+   
+             </div>
+
+             <div class="nav"><!-----------Menu de navegacion----------->
+
+                 <div style="margin-left:20px; " class="btn-nav"><img loading="lazy" class="btn-img-nav" src="icon/Modo Oscuro/inicio.png" alt="Inicio" width="100%"></div>
+                 <div style="margin-left:105px;" class="btn-nav"><img loading="lazy" class="btn-img-nav" src="icon/Modo Oscuro/lista.png" alt="Lista"></div>
+                 <div style="margin-left:110px;" class="btn-nav"><img loading="lazy" class="btn-img-nav" src="icon/Modo Oscuro/configuracion.png" alt="configuraciones" width="100%"></div>
+
+             </div>
+
+            </div>
+
+        </div>
+    
+     
+
+      <script src="js/controls.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
